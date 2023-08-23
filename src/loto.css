@@ -1,0 +1,29 @@
+
+.Turntable {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.LotoP {
+  width: 400px;
+  height: 400px;
+}
+
+.LotoZ {
+  position: absolute;
+  left: 104px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  animation: rotatePointer 1s linear 2s infinite;
+}
+
+@keyframes rotatePointer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
