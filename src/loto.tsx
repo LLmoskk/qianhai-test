@@ -12,7 +12,7 @@ function Loto() {
     setTimeout(() => {
       if (LotoZRef.current) {
         LotoZRef.current.style.animationPlayState = "paused";
-        navigate('/form');
+        navigate('/qianhai-test/form');
       }
     }, 5000);
   });

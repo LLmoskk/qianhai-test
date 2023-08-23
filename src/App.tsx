@@ -6,8 +6,8 @@ import FormCompoent from "./form";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Loto />} />
-      <Route path="/form" element={<FormCompoent />} />
+      <Route path="/qianhai-test/" element={<Loto />} />
+      <Route path="/qianhai-test/form" element={<FormCompoent />} />
     </Routes>
   );
 }
